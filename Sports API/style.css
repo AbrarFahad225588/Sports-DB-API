@@ -1,0 +1,102 @@
+
+.main{
+    display: flex;
+}
+#userdata{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+#team{
+    width: 30%;
+    border: 2px solid rgb(15, 15, 15);
+    box-shadow: 2px 2px 2px 2px rgb(47, 48, 47);
+}
+#team-header{
+    color:black;
+    background-color: rgb(248, 250, 250);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#userdata{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+img{
+    width: 200px;
+    height: auto;
+}
+.players{
+  
+    text-align: center;
+    gap:15px;
+    margin: 20px;
+    box-shadow: 4px 4px 4px 8px gray;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    color: rgb(235, 235, 241);
+    cursor: pointer;
+}
+.playerInfo{
+   
+   color: black;
+    width: 200px;
+    color: rgb(226, 5, 247);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 4px 4px 4px 8px gray;
+}
+
+.playerInfo2{
+    background-color: rgb(253, 251, 251);
+    box-shadow: 4px 4px 4px 8px gray;
+    
+}
+
+.btn{
+    color: black;
+    background-color: white;
+}
+
+#main{
+    display: flex;
+    border: 1px solid white;
+}
+#team{
+    width: 30%;
+    box-shadow: 2px 0 0 4px gray;
+    height: 50%;
+}
+#team-header{
+    color: rgb(15, 15, 15);
+    background-color: rgb(235, 236, 236);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.players-team{
+    color: rgb(226, 5, 247);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 4px gray;
+    border: 2px solid white;
+
+}
+
+#players-team-img{
+    box-shadow: 4px 4px 4px 8px gray;
+width: 50px;
+}
+
